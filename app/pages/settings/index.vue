@@ -5,9 +5,9 @@ const fileRef = ref<HTMLInputElement>()
 const isDeleteAccountModalOpen = ref(false)
 
 const state = reactive({
-  name: 'Benjamin Canac',
-  email: 'ben@nuxtlabs.com',
-  username: 'benjamincanac',
+  name: 'Werner Griesel',
+  email: 'wernerg@dotslash.co.za',
+  username: 'WernerDS',
   avatar: '',
   bio: '',
   password_current: '',
@@ -123,10 +123,10 @@ async function onSubmit(event: FormSubmitEvent<any>) {
             type="username"
             autocomplete="off"
             size="md"
-            input-class="ps-[77px]"
+            input-class="ps-[110px]"
           >
             <template #leading>
-              <span class="text-gray-500 dark:text-gray-400 text-sm">nuxt.com/</span>
+              <span class="text-gray-500 dark:text-gray-400 text-sm">dotslash.co.za/</span>
             </template>
           </UInput>
         </UFormGroup>

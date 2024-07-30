@@ -34,11 +34,6 @@ const items = computed(() => [
     icon: 'i-simple-icons-github',
     to: 'https://github.com/nuxt-ui-pro/dashboard',
     target: '_blank'
-  }, {
-    label: 'Buy Nuxt UI Pro',
-    icon: 'i-heroicons-credit-card',
-    to: 'https://ui.nuxt.com/pro/purchase',
-    target: '_blank'
   }], [{
     label: 'Sign out',
     icon: 'i-heroicons-arrow-left-on-rectangle'
@@ -59,12 +54,12 @@ const items = computed(() => [
         color="gray"
         variant="ghost"
         class="w-full"
-        label="Benjamin"
+        label="Werner"
         :class="[open && 'bg-gray-50 dark:bg-gray-800']"
       >
         <template #leading>
           <UAvatar
-            src="https://avatars.githubusercontent.com/u/739984?v=4"
+            src="https://avatars.githubusercontent.com/u/13958753?s=40&v=4"
             size="2xs"
           />
         </template>
@@ -84,7 +79,7 @@ const items = computed(() => [
           Signed in as
         </p>
         <p class="truncate font-medium text-gray-900 dark:text-white">
-          ben@nuxtlabs.com
+          wernerg@dotslash.co.za
         </p>
       </div>
     </template>
