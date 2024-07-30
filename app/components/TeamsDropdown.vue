@@ -2,7 +2,7 @@
 const teams = [{
   label: 'Dotslash',
   avatar: {
-    src: 'https://avatars.githubusercontent.com/u/12640305?s=16&v=4'
+    src: 'https://avatars.githubusercontent.com/u/12640305?s=200&v=4'
   },
   click: () => {
     team.value = teams[0]
