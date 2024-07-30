@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const countries = [{
-  label: 'United States',
+  label: 'South Africa',
   value: 31,
   color: 'red'
 }, {
